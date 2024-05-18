@@ -1,43 +1,65 @@
+/* Set a maximum width and center the content div */
 #content {
   max-width: 1600px;
   margin: 0 auto;
 }
+
+/* Style nav links */
 nav a {
+  display: block; /* Make the nav links block-level to enable text centering */
   text-align: center;
   color: #fcfbfb;
   text-decoration: none;
 }
+
+/* Center the text in hero message headings */
 #hero-msg h1,
 #hero-msg h4 {
   text-align: center;
 }
-/* Centering elements with class .button-box */
+
+/* Center elements with class .button-box */
 .button-box {
   text-align: center;
 }
-/* Centering <section> elements within <main> */
-main {
+
+/* Center text in main sections */
+main section {
   text-align: center;
 }
+
+/* Set height for background */
 #background {
   height: 725px;
 }
+
+/* Style body background */
 body {
   background-color: #88d8f8;
 }
+
+/* Style header background */
 header {
   background-color: rgba(20, 30, 13, 0.7);
 }
+
+/* Hover effect for nav links */
 nav a:hover {
   background-color: rgb(12, 46, 70);
   color: #d9c2a3;
 }
+
+/* Set width for icons */
 .icon {
   width: 80px;
 }
+
+/* Style footer paragraphs */
 footer p {
   font-size: 1.2em;
 }
+
+/* Hover effect for footer links */
 footer p a:hover {
   text-decoration: underline;
 }
