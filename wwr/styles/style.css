@@ -31,7 +31,7 @@ main section {
 /* Set height for background */
 #background {
   height: 725px;
-  background-color: #e0f7fa;
+  background-color: #aee6ed;
 }
 
 /* Style body background */
@@ -70,7 +70,7 @@ nav a:hover {
 
 /* Style footer paragraphs */
 footer {
-  background-color: #424242;
+  background-color: #a38383;
 }
 footer p {
   font-size: 1.2em;
