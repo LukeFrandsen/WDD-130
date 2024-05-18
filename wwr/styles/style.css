@@ -31,6 +31,7 @@ main section {
 /* Set height for background */
 #background {
   height: 725px;
+  background-color: #e0f7fa;
 }
 
 /* Style body background */
@@ -53,8 +54,24 @@ nav a:hover {
 .icon {
   width: 80px;
 }
+.book,
+.join {
+  background-color: #ffeb3b; /* Added background color */
+}
+
+.book:hover,
+.join:hover {
+  background-color: #ffc107; /* Added background color for hover state */
+}
+
+.msg {
+  background-color: #ffccbc; /* Added background color */
+}
 
 /* Style footer paragraphs */
+footer {
+  background-color: #424242;
+}
 footer p {
   font-size: 1.2em;
 }
