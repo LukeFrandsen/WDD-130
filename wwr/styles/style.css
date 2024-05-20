@@ -22,6 +22,9 @@ nav a {
 .Button-box {
   text-align: center;
 }
+#hero-img {
+  width: 100%;
+}
 
 /* Center text in main sections */
 main section {
