@@ -6,7 +6,6 @@
 
 /* Style nav links */
 nav a {
-  display: block; /* Make the nav links block-level to enable text centering */
   text-align: center;
   color: #fcfbfb;
   text-decoration: none;
